@@ -1,0 +1,37 @@
+# ============================================================
+#  VEHICLE HEALTH MONITORING SYSTEM
+#  requirements.txt — Python Package Dependencies
+# ============================================================
+#
+# HOW TO INSTALL ALL PACKAGES AT ONCE:
+#   pip install -r requirements.txt
+#
+# IN GOOGLE COLAB:
+#   !pip install -r requirements.txt
+#
+# IN JUPYTER:
+#   !pip install -r requirements.txt
+#
+# ============================================================
+
+# Core data science
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+scipy>=1.10
+
+# Gradient Boosting (very powerful ML)
+xgboost>=1.7
+
+# Deep Learning (for LSTM)
+tensorflow>=2.12
+
+# Explainable AI
+shap>=0.42
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Saving/loading models
+joblib>=1.2
