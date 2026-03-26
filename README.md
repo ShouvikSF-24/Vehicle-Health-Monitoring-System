@@ -15,23 +15,6 @@ This project builds a complete **AI-powered system** that:
 
 ## 🗂️ Project Structure
 
-```
-vehicle_health_monitor/
-│
-├── 📄 run_all.py                ← Run this to execute everything
-│
-├── 📄 step1_generate_data.py    ← Creates synthetic datasets
-├── 📄 step2_preprocess.py       ← Cleans and prepares data
-├── 📄 step3_train_models.py     ← Trains 3 ML models
-├── 📄 step4_evaluate_compare.py ← Compares models, SHAP, predictions
-│
-├── 📄 requirements.txt          ← List of packages to install
-│
-├── 📁 data/                     ← Generated CSV files (auto-created)
-├── 📁 outputs/                  ← All charts and graphs (auto-created)
-└── 📁 models/                   ← Saved trained models (auto-created)
-```
-
 ---
 
 ## 🚀 Quick Start (Step-by-Step for Absolute Beginners)
@@ -264,4 +247,3 @@ Or just copy-paste each script into separate Colab cells.
 
 ---
 
-*Built with ❤️ using Python, scikit-learn, XGBoost, TensorFlow & SHAP*
