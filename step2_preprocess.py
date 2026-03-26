@@ -1,27 +1,4 @@
-"""
-============================================================
- VEHICLE HEALTH MONITORING SYSTEM
- Step 2: Data Preprocessing
-============================================================
 
-WHAT THIS FILE DOES:
-  - Loads the raw CSV datasets generated in Step 1
-  - Cleans the data:
-      ✅ Handles missing values
-      ✅ Removes outliers
-      ✅ Normalizes/scales features
-      ✅ Selects the most important features
-  - Saves cleaned, ready-to-train data
-  - Creates visualizations so you can SEE the data
-
-WHY PREPROCESSING?
-  Raw data is messy. ML models are like picky chefs —
-  they only cook well with clean, well-prepared ingredients.
-  Garbage in = garbage out!
-
-BEGINNER TIP:
-  Run after step1. Command: python step2_preprocess.py
-"""
 
 import numpy as np
 import pandas as pd
