@@ -1,25 +1,4 @@
-"""
-============================================================
- VEHICLE HEALTH MONITORING SYSTEM
- Step 4: Model Evaluation, Comparison & Explainability
-============================================================
 
-WHAT THIS FILE DOES:
-  - Loads results from Step 3
-  - Creates a beautiful model comparison table & bar chart
-  - Generates SHAP (SHapley Additive exPlanations) values
-  - Shows WHICH features drive predictions and WHY
-  - Creates a live prediction function with fault probability
-
-WHAT IS SHAP?
-  SHAP answers the question: "WHY did the model say THIS vehicle
-  is faulty?" Instead of a black box, you get explanations like:
-  "engine_temp = 130°C pushed the fault probability up by 0.42"
-
-BEGINNER TIP:
-  Run: python step4_evaluate_compare.py
-  This is the final analysis step!
-"""
 
 import numpy as np
 import pandas as pd
