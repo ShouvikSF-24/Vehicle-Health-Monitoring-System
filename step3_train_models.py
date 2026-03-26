@@ -1,31 +1,4 @@
-"""
-============================================================
- VEHICLE HEALTH MONITORING SYSTEM
- Step 3: Model Training — Random Forest, XGBoost, LSTM
-============================================================
 
-WHAT THIS FILE DOES:
-  - Loads the clean preprocessed data from Step 2
-  - Splits it into Training and Testing sets
-  - Trains THREE machine learning models:
-      1. Random Forest   — ensemble of decision trees
-      2. XGBoost         — gradient boosted trees (very powerful)
-      3. LSTM            — deep learning for time-series patterns
-  - Evaluates each model and saves results
-  - Saves trained models to /models folder
-
-BEGINNER EXPLANATION OF EACH MODEL:
-  Random Forest: Imagine asking 100 people for their opinion
-    and taking a majority vote. Each person is a "decision tree."
-  XGBoost: Each new tree learns from the mistakes of the
-    previous tree. Like a student correcting errors over time.
-  LSTM: A special neural network that REMEMBERS past readings.
-    Perfect for sensor data that changes over time.
-
-BEGINNER TIP:
-  Run: python step3_train_models.py
-  This takes about 1–3 minutes to complete.
-"""
 
 import numpy as np
 import pandas as pd
