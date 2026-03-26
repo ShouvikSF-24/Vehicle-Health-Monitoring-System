@@ -1,23 +1,3 @@
-"""
-============================================================
- VEHICLE HEALTH MONITORING SYSTEM
- run_all.py — Master Script (Run Everything at Once)
-============================================================
-
-WHAT THIS DOES:
-  Runs all 4 steps in sequence:
-    Step 1 → Generate datasets
-    Step 2 → Preprocess & clean data
-    Step 3 → Train Random Forest, XGBoost, LSTM
-    Step 4 → Evaluate, compare, SHAP, predict
-
-HOW TO RUN:
-  In VS Code terminal: python run_all.py
-  In Jupyter:          !python run_all.py
-  In Google Colab:     !python run_all.py
-
-ESTIMATED TIME: ~2–5 minutes depending on your computer.
-"""
 
 import subprocess
 import sys
