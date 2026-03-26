@@ -1,25 +1,4 @@
-"""
-============================================================
- VEHICLE HEALTH MONITORING SYSTEM
- Step 1: Generate & Explore Synthetic Datasets
-============================================================
 
-WHAT THIS FILE DOES:
-  - Creates two realistic synthetic datasets:
-      1. Vehicle Telemetry Dataset  (engine, speed, temperature, etc.)
-      2. Battery Health Dataset     (voltage, current, temperature, etc.)
-  - Saves them as CSV files in the /data folder
-  - Prints a summary so you can understand the data
-
-WHY SYNTHETIC DATA?
-  Real vehicle datasets are often proprietary (private).
-  Synthetic data lets us build and test a full ML pipeline
-  with realistic patterns — and it runs offline too!
-
-BEGINNER TIP:
-  Run this file FIRST before any other file.
-  Just press F5 in VS Code, or run: python step1_generate_data.py
-"""
 
 import numpy as np
 import pandas as pd
