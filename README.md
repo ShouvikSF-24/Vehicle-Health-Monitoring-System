@@ -1,6 +1,10 @@
 # 🚗 Vehicle Health Monitoring System
 ### Using Machine Learning for Predictive Maintenance
 
+https://github.com/ShouvikSF-24/Vehicle-Health-Monitoring-System
+OCID - 0009-0001-0153-267X
+Shouvik Bhowmick
+shouvik.22bce9367@vitapstudent.ac.in
 ---
 
 ## 📋 What This Project Does
